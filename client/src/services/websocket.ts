@@ -177,7 +177,7 @@ class WebSocketService {
     if (!this.socket) return 'disconnected';
     
     if (this.socket.connected) return 'connected';
-    if (this.socket.connecting) return 'connecting';
+    // if (this.socket.connecting) return 'connecting';
     return 'error';
   }
 
